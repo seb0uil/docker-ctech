@@ -2,7 +2,6 @@ FROM docker:dind
 
 MAINTAINER seb0uil
 
-RUN apk --update add openjdk7
 WORKDIR /tmp
 RUN apk upgrade --update && \
  && apk add openjdk7 \
